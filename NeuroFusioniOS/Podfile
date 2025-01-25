@@ -1,0 +1,5 @@
+target 'NeuroFusioniOS' do
+  use_frameworks!
+  platform :ios, '16.0'
+  pod 'NeuroFusionCore', :path => '../NeuroFusionCore'
+end

@@ -1,0 +1,71 @@
+# General
+*.log
+*.ktindex
+*.kt.bc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle.properties
+
+# Android
+NeuroFusionAndroid/build/
+*.apk
+*.aar
+*.keystore
+local.properties
+.repo/
+
+# iOS
+**/NeuroFusioniOS/NeuroFusioniOS.xcworkspace/xcuserdata/
+**/NeuroFusioniOS/NeuroFusioniOS.xcodeproj/xcuserdata/
+**/NeuroFusioniOS/NeuroFusioniOS.xcodeproj/project.xcworkspace/xcuserdata/
+**/NeuroFusioniOS/build/
+*.ipa
+**/*.mobileprovision
+**/*.xcuserstate
+**/*.xcsettings
+
+# Kotlin
+.kotlin/
+bin/
+*.kexe
+*.klib
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# CocoaPods (uncomment if needed)
+NeuroFusioniOS/Pods/
+NeuroFusioniOS/Podfile.lock
+
+# KMM specific
+build/
+NeuroFusionCore/build/
+**/buildSrc/build/
+.metropolis/
+
+# Local configuration
+configuration.store
+
+# Generated files
+**/generated/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# NDK
+.externalNativeBuild
+.cxx/
